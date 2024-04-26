@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    gap: 10px;
+
+}
+
+.gallery {
+    color: rgb(104, 109, 56);
+    font-size: 35px;
+}
+.start-btn {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background: darkgreen;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em auto auto;
+    width: 600px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
